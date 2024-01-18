@@ -5,7 +5,7 @@ import lombok.Data;
 import java.sql.Date;
 @Data
 public class Project {
-    private Integer id;
+    private Long id;
     private Integer clientId;
     private Date startDate;
     private Date finishDate;

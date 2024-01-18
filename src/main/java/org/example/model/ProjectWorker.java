@@ -4,6 +4,6 @@ import lombok.Data;
 
 @Data
 public class ProjectWorker {
-    private Integer projectId;
-    private Integer workerId;
+    private Long projectId;
+    private Long workerId;
 }
